@@ -1,6 +1,8 @@
-# 👾 Curso Técnico em Informática – EMTI
+# 👾 Ensimo Médio Técnico Integral - Técnico em Informática
 
-🖥️ Repositório oficial do Curso Técnico em Informática do Ensino Médio em Tempo Integral (EMTI), da Rede Estadual de Minas Gerais.
+🖥️ Repositório oficial do Curso Técnico em Informática do Ensino Médio em Tempo Integral (EMTI), da Rede Estadual de Minas Gerais. 
+
+Coordenado e Ministrado pela Professora Sandra Maria Pereira
 
 ## 📚 Sobre o Curso
 
@@ -34,19 +36,4 @@ O curso integra a formação geral básica com a formação técnica de nível m
 - **Laboratório de Software**
 - **Laboratório Web (Projeto Final Integrador)**
 
----
-
-## 🛠️ Tecnologias Abordadas
-
-```bash
-- HTML5, CSS3, JavaScript
-- PHP, MySQL
-- Java (POO)
-- Redes TCP/IP
-- WordPress (CMS)
-- Arduino (Robótica)
-- Git, GitHub Pages
-
----
-
-> Este repositório está em constante atualização e reúne práticas integradoras, planos de aula, códigos-fonte e projetos desenvolvidos por professores e alunos do EMTI.
+> Este repositório está em constante atualização e reúne práticas integradoras, planos de aula, códigos-fonte e projetos desenvolvidos por professores e alunos do EMTI Téncico em Informática das Escolas Estaduais Cristiano Machado e Geraldo Jardim Linhares, em Belo Horizonte - MG
