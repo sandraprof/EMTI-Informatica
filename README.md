@@ -1,64 +1,51 @@
-Claro! Com base no arquivo **Crivo\_SandraPereira\_2025.xlsx**, que contém as disciplinas do curso Técnico em Informática, reestruturei o `README.md` com a lista real das disciplinas organizadas por ano. Veja abaixo:
+# 👾 Curso Técnico em Informática – EMTI
+
+🖥️ Repositório oficial do Curso Técnico em Informática do Ensino Médio em Tempo Integral (EMTI), da Rede Estadual de Minas Gerais.
+
+## 📚 Sobre o Curso
+
+O curso integra a formação geral básica com a formação técnica de nível médio na área de **Informação e Comunicação**, com carga horária total de **4.500 horas** distribuídas ao longo de três anos.
+
+🎯 **Objetivo Geral**: Formar profissionais éticos, críticos e criativos, capazes de atuar no desenvolvimento de sistemas, manutenção de hardware, redes, web e robótica.
 
 ---
 
-### 📄 README.md
-
-```markdown
-# Curso Técnico em Informática - EMTI
-
-Bem-vindo ao repositório oficial do Curso Técnico em Informática da rede EMTI (Ensino Médio em Tempo Integral - Profissional). Aqui você encontrará os materiais didáticos, projetos, planos de aula e recursos organizados por disciplina e ano do curso.
-
-## 🎯 Objetivo
-
-Formar profissionais críticos, criativos e preparados para o mundo do trabalho com domínio nas áreas de programação, redes, hardware, sistemas e empreendedorismo digital.
-
-## 🧩 Organização por Ano e Disciplinas
+## 🗂️ Estrutura Curricular por Ano
 
 ### 📘 1º Ano
+- **Informática Básica** – Introdução ao hardware, software e redes.
+- **Lógica de Programação** – Algoritmos, estruturas de controle e boas práticas.
 
-- Informática Básica
-- Pensamento Computacional
-- Lógica de Programação
-- Laboratório de Aprendizagem (Artes, Cultura e Lazer)
-- Nivelamento
-- Estudos Orientados
-- Projeto de Vida
-- Eletiva I e II
+### 📗 2º Ano
+- **Arquitetura e Manutenção de Computadores**
+- **HTML e CSS**
+- **Sistemas Operacionais**
+- **Gestão do Tempo**
+- **Programação Orientada a Objetos (Java)**
+- **Programação Web I (JavaScript, PHP, MySQL)**
+- **Noções de Robótica (Arduino/Simulide)**
 
-### 💻 2º Ano
+### 📙 3º Ano
+- **Redes de Computadores**
+- **Design para Web**
+- **Gerenciador de Conteúdo e Banco de Dados**
+- **Programação Web II (Back-End Avançado)**
+- **Laboratório de Hardware**
+- **Laboratório de Software**
+- **Laboratório Web (Projeto Final Integrador)**
 
-- Programação Orientada a Objetos
-- Sistemas Operacionais
-- Arquitetura e Manutenção de Computadores
-- Inovação Social e Científica e Empreendedorismo
-- Intervenção Comunitária e Empreendedorismo
-- Eletiva I e II
-- Prática Profissional Empreendedora
-- Atividades Integradoras
-- Laboratório de Aprendizagem
-- Estudos Orientados
+---
 
-### 🖥️ 3º Ano
+## 🛠️ Tecnologias Abordadas
 
-- Desenvolvimento de Sistemas Web
-- HTML e CSS
-- Banco de Dados
-- Gestão do Tempo (foco em Informática)
-- Empresa Pedagógica e Empreendedorismo
-- Prática Profissional Empreendedora
-- Projeto de Conclusão de Curso (PCC)
-
-## 📚 Referenciais de Apoio
-
-- [Plano de Curso EMTI Profissional - SEE/MG](https://drive.google.com/drive/folders/1YcgLnd5R4HtBb0thL7W8c_DTL4KQ56sx?usp=drive_link)
-- [Plano Técnico em Informática - 1200h](https://drive.google.com/drive/u/1/folders/1keSkmOA6AjmyBzSuLnggozke1MfgRcLy)
-
-## 👩‍🏫 Coordenação
-
-**Professora Sandra Maria Pereira**  
-📧 sandra.pereira898@educacao.mg.gov.br  
-📍 Belo Horizonte, MG
+```bash
+- HTML5, CSS3, JavaScript
+- PHP, MySQL
+- Java (POO)
+- Redes TCP/IP
+- WordPress (CMS)
+- Arduino (Robótica)
+- Git, GitHub Pages
 
 ---
 
