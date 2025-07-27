@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso Técnico em Informática</title>
+  <style>
+    body {
+      background-color: black;
+      color: #00FF00;
+      font-family: "Courier New", Courier, monospace;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      text-shadow: 0 0 5px #00FF00;
+    }
+    .retro-icon {
+      font-size: 30px;
+      margin-right: 10px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
+    .language-toggle {
+      background-color: #111;
+      color: #00FF00;
+      border: 2px solid #00FF00;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    .hidden {
+      display: none;
+    }
+    ul {
+      list-style: square;
+      margin-left: 20px;
+    }
+  </style>
+  <script>
+    function toggleLanguage() {
+      const pt = document.getElementById("pt");
+      const en = document.getElementById("en");
+      if (pt.classList.contains("hidden")) {
+        pt.classList.remove("hidden");
+        en.classList.add("hidden");
+      } else {
+        pt.classList.add("hidden");
+        en.classList.remove("hidden");
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <button class="language-toggle" onclick="toggleLanguage()">PT / EN</button>
+
+    <div id="pt">
+      <h1><span class="retro-icon">💾</span>Curso Técnico em Informática</h1>
+
+      <h2>📚 1º Ano</h2>
+      <h3>💡 Informática Básica</h3>
+      <ul>
+        <li>Evolução da informática e história dos computadores</li>
+        <li>Representação binária, unidades de medida e codificação de dados</li>
+        <li>Hardware, software, sistemas operacionais, aplicativos</li>
+        <li>Conceitos de internet, redes e computação em nuvem</li>
+      </ul>
+      <h3>🧠 Lógica de Programação</h3>
+      <ul>
+        <li>Algoritmos, fluxogramas e pseudocódigos</li>
+        <li>Variáveis, constantes, operadores, expressões</li>
+        <li>Condicionais, estruturas de repetição, teste de mesa</li>
+        <li>Boas práticas de programação</li>
+      </ul>
+
+      <h2>📚 2º Ano</h2>
+      <h3>🔧 Arquitetura e Manutenção de Computadores</h3>
+      <ul>
+        <li>Componentes físicos: placa-mãe, memória, processador, armazenamento</li>
+        <li>Montagem, manutenção preventiva e corretiva</li>
+        <li>Procedimentos de segurança e normas técnicas</li>
+      </ul>
+      <h3>🌐 HTML / CSS</h3>
+      <ul>
+        <li>Estrutura HTML, semântica, formulários, acessibilidade</li>
+        <li>CSS interno e externo, seletores, layouts, responsividade</li>
+      </ul>
+      <h3>💻 Sistemas Operacionais</h3>
+      <ul>
+        <li>Instalação e configuração de sistemas Windows e Linux</li>
+        <li>Interface gráfica, linha de comando, permissões</li>
+        <li>Virtualização e manutenção básica</li>
+      </ul>
+      <h3>☕ Programação Orientada a Objetos (Java)</h3>
+      <ul>
+        <li>Conceitos de classe, objeto, herança, polimorfismo</li>
+        <li>Estrutura básica de programas em Java</li>
+      </ul>
+      <h3>🌍 Programação Web (JavaScript, PHP, MySQL)</h3>
+      <ul>
+        <li>Front-end com JavaScript, formulários e interatividade</li>
+        <li>Introdução ao PHP, conexões com banco de dados</li>
+      </ul>
+      <h3>⏳ Gestão do Tempo</h3>
+      <ul>
+        <li>Planejamento pessoal e profissional</li>
+        <li>Ferramentas e técnicas para produtividade</li>
+      </ul>
+      <h3>🤖 Noções de Robótica</h3>
+      <ul>
+        <li>Sensores, atuadores, microcontroladores (Arduino)</li>
+        <li>Montagem e programação básica</li>
+      </ul>
+
+      <h2>📚 3º Ano</h2>
+      <h3>🌐 Redes de Computadores</h3>
+      <ul>
+        <li>Topologias, protocolos, cabeamento, conectividade</li>
+        <li>Instalação de redes locais</li>
+      </ul>
+      <h3>🎨 Design</h3>
+      <ul>
+        <li>Imagem digital, composição, cores, tipografia</li>
+        <li>Wireframes e prototipação</li>
+      </ul>
+      <h3>🗂️ Gerenciador de Conteúdo / Banco de Dados</h3>
+      <ul>
+        <li>Uso de CMS (WordPress), hospedagem e publicação</li>
+        <li>Banco de dados relacional, SQL básico</li>
+      </ul>
+      <h3>🧪 Programação Web II</h3>
+      <ul>
+        <li>Integração front e back-end via APIs</li>
+        <li>CRUD, sessões, cookies, segurança (SQL Injection)</li>
+      </ul>
+      <h3>🔌 Laboratório de Hardware</h3>
+      <ul>
+        <li>Reparos técnicos, diagnóstico e solução de falhas</li>
+        <li>Normas e ferramentas profissionais</li>
+      </ul>
+      <h3>💾 Laboratório de Software</h3>
+      <ul>
+        <li>Imagens de sistema, backups, restauração, automação</li>
+        <li>Comandos avançados, permissões e scripts</li>
+      </ul>
+      <h3>🧱 Laboratório Web (Projeto Integrador)</h3>
+      <ul>
+        <li>Planejamento e desenvolvimento de sistemas</li>
+        <li>Integração entre linguagens e banco de dados</li>
+      </ul>
+    </div>
+
+    <div id="en" class="hidden">
+      <h1><span class="retro-icon">💾</span>Technical Course in Informatics</h1>
+      <p>⚠️ Full English version coming soon. Click PT/EN to return.</p>
+    </div>
+  </div>
+</body>
+</html>
