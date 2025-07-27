@@ -21,7 +21,7 @@
 
     header {
       text-align: center;
-      padding: 40px 20px;
+      padding: 40px 20px 20px;
       border-bottom: 2px solid var(--verde);
     }
 
@@ -33,6 +33,20 @@
     header p {
       color: var(--amarelo);
       font-size: 1.1em;
+    }
+
+    #lang-buttons {
+      margin-top: 10px;
+    }
+
+    #lang-buttons button {
+      background: black;
+      border: 1px solid var(--verde);
+      color: var(--verde);
+      font-family: var(--fonte);
+      padding: 5px 15px;
+      margin: 5px;
+      cursor: pointer;
     }
 
     section {
@@ -47,22 +61,12 @@
       padding-bottom: 5px;
     }
 
-    .disciplina {
-      margin-top: 30px;
+    .bloco {
+      margin-top: 20px;
     }
 
-    .disciplina h3 {
-      font-size: 1.2em;
-      margin-bottom: 5px;
-    }
-
-    .icone {
-      margin-right: 10px;
-    }
-
-    ul {
-      list-style-type: square;
-      padding-left: 20px;
+    .bloco h3 {
+      font-size: 1.1em;
     }
 
     footer {
@@ -77,14 +81,17 @@
       header h1 {
         font-size: 1.6em;
       }
-
       section {
         padding: 20px 15px;
       }
+    }
 
-      .disciplina h3 {
-        font-size: 1.05em;
-      }
+    .lang {
+      display: none;
+    }
+
+    .active {
+      display: block;
     }
   </style>
 </head>
@@ -93,181 +100,104 @@
   <header>
     <h1>Curso Técnico em Informática</h1>
     <p>EMTI - Ensino Médio em Tempo Integral</p>
+    <div id="lang-buttons">
+      <button onclick="setLang('pt')">🇧🇷 Português</button>
+      <button onclick="setLang('en')">🇺🇸 English</button>
+    </div>
   </header>
 
-  <section>
-    <h2>📘 1º Ano</h2>
-
-    <div class="disciplina">
-      <h3>🖥️ Informática Básica</h3>
-      <p><strong>Objetivo:</strong> Aplicar fundamentos da informática, identificando hardware, sistemas e aplicativos.</p>
-      <ul>
-        <li>Evolução da informática</li>
-        <li>Representação binária</li>
-        <li>Unidades de medida</li>
-        <li>Hardware e software (livre e proprietário)</li>
-        <li>Redes, virtualização e computação na nuvem</li>
-      </ul>
+  <section id="pt" class="lang active">
+    <h2>📘 Sobre o Curso</h2>
+    <div class="bloco">
+      <h3>🎯 Objetivo</h3>
+      <p>Formar profissionais capazes de atuar nas áreas de programação, manutenção, redes, web e robótica, com postura ética e visão crítica.</p>
     </div>
 
-    <div class="disciplina">
-      <h3>⚙️ Lógica de Programação</h3>
-      <p><strong>Objetivo:</strong> Desenvolver algoritmos usando divisão modular e refinamentos sucessivos.</p>
+    <h2>🗂️ Estrutura Curricular</h2>
+    <div class="bloco">
+      <h3>📘 1º Ano</h3>
       <ul>
-        <li>Conceito de algoritmo</li>
-        <li>Representações visuais e estruturadas</li>
-        <li>Comandos, variáveis, operadores</li>
-        <li>Estruturas condicionais e de repetição</li>
-        <li>Teste de mesa e boas práticas</li>
+        <li>Informática Básica</li>
+        <li>Lógica de Programação</li>
       </ul>
     </div>
-
-    <h2>📗 2º Ano</h2>
-
-    <div class="disciplina">
-      <h3>🧰 Arquitetura e Manutenção</h3>
-      <p><strong>Objetivo:</strong> Planejar e executar montagem de computadores, reconhecendo componentes e arquiteturas.</p>
+    <div class="bloco">
+      <h3>📗 2º Ano</h3>
       <ul>
-        <li>Arquitetura, processadores, placas</li>
-        <li>Tipos de memória e armazenamento</li>
-        <li>Sistemas de refrigeração e montagem</li>
-        <li>Manutenção preventiva</li>
+        <li>Arquitetura de Computadores</li>
+        <li>HTML/CSS</li>
+        <li>Sistemas Operacionais</li>
+        <li>Gestão do Tempo</li>
+        <li>Programação Orientada a Objetos (Java)</li>
+        <li>Programação Web I (JS, PHP, MySQL)</li>
+        <li>Robótica</li>
       </ul>
     </div>
-
-    <div class="disciplina">
-      <h3>🌐 HTML / CSS</h3>
-      <p><strong>Objetivo:</strong> Criar páginas para web com marcação e estilo em camadas.</p>
+    <div class="bloco">
+      <h3>📙 3º Ano</h3>
       <ul>
-        <li>HTML5 semântico</li>
-        <li>Listas, imagens, formulários</li>
-        <li>CSS3: seletores, posicionamento, responsividade</li>
-        <li>Compatibilidade e acessibilidade</li>
+        <li>Redes de Computadores</li>
+        <li>Design para Web</li>
+        <li>Banco de Dados e CMS</li>
+        <li>Programação Web II</li>
+        <li>Laboratório de Hardware</li>
+        <li>Laboratório de Software</li>
+        <li>Projeto Final Web</li>
       </ul>
     </div>
+  </section>
 
-    <div class="disciplina">
-      <h3>⏳ Gestão do Tempo</h3>
-      <p><strong>Objetivo:</strong> Planejar atividades e projetos respeitando prazos e prioridades.</p>
-      <ul>
-        <li>Matriz de Eisenhower</li>
-        <li>Ferramentas e organização pessoal</li>
-      </ul>
+  <section id="en" class="lang">
+    <h2>📘 About the Course</h2>
+    <div class="bloco">
+      <h3>🎯 Objective</h3>
+      <p>Train professionals capable of working in programming, maintenance, networks, web development and robotics, with ethics and critical thinking.</p>
     </div>
 
-    <div class="disciplina">
-      <h3>💽 Sistemas Operacionais</h3>
-      <p><strong>Objetivo:</strong> Instalar e configurar sistemas e aplicativos em desktops e dispositivos móveis.</p>
+    <h2>🗂️ Curriculum Structure</h2>
+    <div class="bloco">
+      <h3>📘 Year 1</h3>
       <ul>
-        <li>Conceitos de SO</li>
-        <li>Instalação e configuração</li>
-        <li>Virtualização e manutenção</li>
+        <li>Computer Basics</li>
+        <li>Programming Logic</li>
       </ul>
     </div>
-
-    <div class="disciplina">
-      <h3>🧱 Programação Orientada a Objetos (Java)</h3>
-      <p><strong>Objetivo:</strong> Aplicar técnicas de POO no desenvolvimento de software.</p>
+    <div class="bloco">
+      <h3>📗 Year 2</h3>
       <ul>
-        <li>Classes, objetos, métodos</li>
-        <li>Herança, polimorfismo, encapsulamento</li>
-        <li>Tipos, operadores, laços</li>
+        <li>Computer Architecture</li>
+        <li>HTML/CSS</li>
+        <li>Operating Systems</li>
+        <li>Time Management</li>
+        <li>Object-Oriented Programming (Java)</li>
+        <li>Web Programming I (JS, PHP, MySQL)</li>
+        <li>Robotics</li>
       </ul>
     </div>
-
-    <div class="disciplina">
-      <h3>🕸️ Programação Web I (JavaScript/PHP/MySQL)</h3>
-      <p><strong>Objetivo:</strong> Criar sistemas web com conexão a banco de dados.</p>
+    <div class="bloco">
+      <h3>📙 Year 3</h3>
       <ul>
-        <li>Front-end (JS, Bootstrap)</li>
-        <li>Back-end com PHP</li>
-        <li>Conexão e persistência com MySQL</li>
-      </ul>
-    </div>
-
-    <div class="disciplina">
-      <h3>🤖 Noções de Robótica</h3>
-      <p><strong>Objetivo:</strong> Compreender robótica e microcontroladores usando Arduino ou similares.</p>
-      <ul>
-        <li>Sensores e atuadores</li>
-        <li>Plataformas de desenvolvimento</li>
-        <li>Programação de robôs</li>
-      </ul>
-    </div>
-
-    <h2>📙 3º Ano</h2>
-
-    <div class="disciplina">
-      <h3>📡 Redes de Computadores</h3>
-      <p><strong>Objetivo:</strong> Instalar e configurar redes locais com base em boas práticas.</p>
-      <ul>
-        <li>Topologias, modelos OSI e TCP/IP</li>
-        <li>Crimpagem, cabeamento, teste de redes</li>
-        <li>Manutenção de rede</li>
-      </ul>
-    </div>
-
-    <div class="disciplina">
-      <h3>🎨 Design para Web</h3>
-      <p><strong>Objetivo:</strong> Criar interfaces visuais e imagens digitais para sites e apps.</p>
-      <ul>
-        <li>Composição visual</li>
-        <li>Tipografia, cores, imagens vetoriais</li>
-        <li>Wireframes e protótipos</li>
-      </ul>
-    </div>
-
-    <div class="disciplina">
-      <h3>🗂️ Gerenciador de Conteúdo e Banco de Dados</h3>
-      <p><strong>Objetivo:</strong> Usar CMS e ferramentas SQL para gerenciar sites e dados.</p>
-      <ul>
-        <li>WordPress, hospedagem, backups</li>
-        <li>SQL, phpMyAdmin</li>
-      </ul>
-    </div>
-
-    <div class="disciplina">
-      <h3>🔁 Programação Web II (PHP/MySQL)</h3>
-      <p><strong>Objetivo:</strong> Desenvolver sistemas completos com back-end e banco de dados.</p>
-      <ul>
-        <li>APIs REST/SOAP</li>
-        <li>Formulários, sessões, segurança</li>
-        <li>CRUD e prevenção de SQL Injection</li>
-      </ul>
-    </div>
-
-    <div class="disciplina">
-      <h3>🔧 Laboratório de Hardware</h3>
-      <p><strong>Objetivo:</strong> Executar montagem e manutenção segura de equipamentos.</p>
-      <ul>
-        <li>Normas de segurança</li>
-        <li>Instalação e diagnóstico de peças</li>
-      </ul>
-    </div>
-
-    <div class="disciplina">
-      <h3>💾 Laboratório de Software</h3>
-      <p><strong>Objetivo:</strong> Instalar, corrigir e configurar sistemas operacionais.</p>
-      <ul>
-        <li>Backup e restore</li>
-        <li>Scripts, linha de comando</li>
-        <li>Imagens de sistema</li>
-      </ul>
-    </div>
-
-    <div class="disciplina">
-      <h3>🛠️ Laboratório Web</h3>
-      <p><strong>Objetivo:</strong> Criar um projeto final web com banco de dados e front-end.</p>
-      <ul>
-        <li>Planejamento, cronograma e execução</li>
-        <li>Desenvolvimento completo por equipe</li>
+        <li>Computer Networks</li>
+        <li>Web Design</li>
+        <li>Database and CMS</li>
+        <li>Web Programming II</li>
+        <li>Hardware Lab</li>
+        <li>Software Lab</li>
+        <li>Capstone Web Project</li>
       </ul>
     </div>
   </section>
 
   <footer>
-    © 2025 Curso Técnico em Informática - EMTI • Desenvolvido por Sandra Pereira
+    © 2025 Curso Técnico em Informática - EMTI • Developed by Sandra Pereira
   </footer>
+
+  <script>
+    function setLang(lang) {
+      document.querySelectorAll('.lang').forEach(el => el.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+    }
+  </script>
 
 </body>
 </html>
