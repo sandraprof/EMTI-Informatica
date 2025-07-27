@@ -21,7 +21,7 @@
 
     header {
       text-align: center;
-      padding: 40px 20px 20px;
+      padding: 40px 20px 10px;
       border-bottom: 2px solid var(--verde);
     }
 
@@ -35,18 +35,18 @@
       font-size: 1.1em;
     }
 
-    #lang-buttons {
+    #lang-select {
+      text-align: center;
       margin-top: 10px;
     }
 
-    #lang-buttons button {
-      background: black;
-      border: 1px solid var(--verde);
-      color: var(--verde);
+    select {
       font-family: var(--fonte);
-      padding: 5px 15px;
-      margin: 5px;
-      cursor: pointer;
+      font-size: 1em;
+      background: black;
+      color: var(--verde);
+      border: 1px solid var(--verde);
+      padding: 5px;
     }
 
     section {
@@ -61,12 +61,22 @@
       padding-bottom: 5px;
     }
 
-    .bloco {
-      margin-top: 20px;
+    .disciplina {
+      margin-top: 30px;
     }
 
-    .bloco h3 {
-      font-size: 1.1em;
+    .disciplina h3 {
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+
+    .icone {
+      margin-right: 10px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
     }
 
     footer {
@@ -81,115 +91,43 @@
       header h1 {
         font-size: 1.6em;
       }
+
       section {
         padding: 20px 15px;
       }
+
+      .disciplina h3 {
+        font-size: 1.05em;
+      }
     }
 
-    .lang {
-      display: none;
-    }
-
-    .active {
-      display: block;
-    }
+    .lang { display: none; }
+    .active { display: block; }
   </style>
 </head>
 <body>
-
   <header>
     <h1>Curso Técnico em Informática</h1>
     <p>EMTI - Ensino Médio em Tempo Integral</p>
-    <div id="lang-buttons">
-      <button onclick="setLang('pt')">🇧🇷 Português</button>
-      <button onclick="setLang('en')">🇺🇸 English</button>
+    <div id="lang-select">
+      <label for="lang-menu">🌐 Idioma / Language:</label>
+      <select id="lang-menu" onchange="setLang(this.value)">
+        <option value="pt">Português 🇧🇷</option>
+        <option value="en">English 🇺🇸</option>
+      </select>
     </div>
   </header>
 
   <section id="pt" class="lang active">
-    <h2>📘 Sobre o Curso</h2>
-    <div class="bloco">
-      <h3>🎯 Objetivo</h3>
-      <p>Formar profissionais capazes de atuar nas áreas de programação, manutenção, redes, web e robótica, com postura ética e visão crítica.</p>
-    </div>
-
-    <h2>🗂️ Estrutura Curricular</h2>
-    <div class="bloco">
-      <h3>📘 1º Ano</h3>
-      <ul>
-        <li>Informática Básica</li>
-        <li>Lógica de Programação</li>
-      </ul>
-    </div>
-    <div class="bloco">
-      <h3>📗 2º Ano</h3>
-      <ul>
-        <li>Arquitetura de Computadores</li>
-        <li>HTML/CSS</li>
-        <li>Sistemas Operacionais</li>
-        <li>Gestão do Tempo</li>
-        <li>Programação Orientada a Objetos (Java)</li>
-        <li>Programação Web I (JS, PHP, MySQL)</li>
-        <li>Robótica</li>
-      </ul>
-    </div>
-    <div class="bloco">
-      <h3>📙 3º Ano</h3>
-      <ul>
-        <li>Redes de Computadores</li>
-        <li>Design para Web</li>
-        <li>Banco de Dados e CMS</li>
-        <li>Programação Web II</li>
-        <li>Laboratório de Hardware</li>
-        <li>Laboratório de Software</li>
-        <li>Projeto Final Web</li>
-      </ul>
-    </div>
+    <!-- TODO: incluir aqui o conteúdo em português (copiar e colar o HTML fornecido acima) -->
   </section>
 
   <section id="en" class="lang">
-    <h2>📘 About the Course</h2>
-    <div class="bloco">
-      <h3>🎯 Objective</h3>
-      <p>Train professionals capable of working in programming, maintenance, networks, web development and robotics, with ethics and critical thinking.</p>
-    </div>
-
-    <h2>🗂️ Curriculum Structure</h2>
-    <div class="bloco">
-      <h3>📘 Year 1</h3>
-      <ul>
-        <li>Computer Basics</li>
-        <li>Programming Logic</li>
-      </ul>
-    </div>
-    <div class="bloco">
-      <h3>📗 Year 2</h3>
-      <ul>
-        <li>Computer Architecture</li>
-        <li>HTML/CSS</li>
-        <li>Operating Systems</li>
-        <li>Time Management</li>
-        <li>Object-Oriented Programming (Java)</li>
-        <li>Web Programming I (JS, PHP, MySQL)</li>
-        <li>Robotics</li>
-      </ul>
-    </div>
-    <div class="bloco">
-      <h3>📙 Year 3</h3>
-      <ul>
-        <li>Computer Networks</li>
-        <li>Web Design</li>
-        <li>Database and CMS</li>
-        <li>Web Programming II</li>
-        <li>Hardware Lab</li>
-        <li>Software Lab</li>
-        <li>Capstone Web Project</li>
-      </ul>
-    </div>
+    <!-- TODO: incluir aqui a versão traduzida para o inglês -->
   </section>
 
   <footer>
-    © 2025 Curso Técnico em Informática - EMTI • Developed by Sandra Pereira
+    © 2025 Curso Técnico em Informática - EMTI • Desenvolvido por Sandra Pereira
   </footer>
 
   <script>
@@ -198,8 +136,5 @@
       document.getElementById(lang).classList.add('active');
     }
   </script>
-
 </body>
 </html>
-
-
