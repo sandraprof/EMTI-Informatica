@@ -1,0 +1,127 @@
+# Adequação da Ementa do Curso Técnico em Informática para Inclusão de Conteúdos de Ciência de Dados e Inteligência Artificial
+
+Esta proposta apresenta ajustes nas ementas dos componentes curriculares do curso Técnico em Informática do EMTI, integrando conteúdos de Ciência de Dados e Inteligência Artificial (IA), de forma progressiva, ao longo dos três anos, com foco em fundamentos e aplicações práticas acessíveis, incluindo a produção de modelos simples e agentes básicos.
+
+---
+
+## 1º ANO
+
+### Informática Básica
+
+**Ementa Adequada:**
+
+> Aplicar os fundamentos da informática com foco na compreensão da evolução da tecnologia, estrutura dos sistemas computacionais e introdução aos conceitos de ciência de dados e inteligência artificial, destacando a coleta, tipos e a importância dos dados no mundo digital.
+
+**Inclusões:**
+
+* Introdução à Ciência de Dados
+* Introdução à Inteligência Artificial
+* Dados estruturados e não estruturados
+* Ética e privacidade de dados
+* Armazenamento e transformação de dados
+
+---
+
+### Lógica de Programação
+
+**Ementa Adequada:**
+
+> Desenvolver algoritmos estruturados e representações lógicas aplicadas à ciência de dados e fundamentos da inteligência artificial, com foco na coleta, tratamento e análise de pequenos conjuntos de dados.
+
+**Inclusões:**
+
+* Algoritmos simples de análise de dados
+* Estruturas de dados para IA (listas, vetores)
+* Introdução a algoritmos de decisão (ex: regras de decisão)
+
+---
+
+## 2º ANO
+
+### Sistemas Operacionais
+
+**Inclusões:**
+
+* Ambientes para ciência de dados e IA (Linux, Anaconda, Jupyter, Google Colab)
+* Gerenciamento de ambientes virtuais
+
+---
+
+### Programação Orientada a Objetos (Java)
+
+**Inclusões:**
+
+* Criação de classes para simular decisões e interações (ex: agentes simples baseados em regras)
+* Manipulação de dados para alimentar modelos básicos
+
+---
+
+### Programação Web I (JS/PHP/MySQL)
+
+**Inclusões:**
+
+* Interface para entrada de dados e visualização de resultados de modelos simples de IA
+* Introdução a chamadas de APIs com modelos preditivos
+
+---
+
+### Noções de Robótica
+
+**Inclusão sugerida:**
+
+* Aplicação de sensores para coleta de dados e tomada de decisão com base em regras simples (ex: if-else)
+* Introdução a agentes físicos e lógica de atuação reativa
+
+---
+
+## 3º ANO
+
+### Redes de Computadores
+
+**Inclusões:**
+
+* Transmissão de dados entre agentes inteligentes
+* Comunicação cliente-servidor entre aplicações de IA
+
+---
+
+### Design
+
+**Inclusões:**
+
+* Visualização de dados e resultados de modelos preditivos
+* Interfaces para interação com modelos de IA
+
+---
+
+### Gerenciador de Conteúdo / Banco de Dados
+
+**Inclusões:**
+
+* Armazenamento e consulta de dados usados para treinar modelos de IA
+* Visualização de tendências e padrões
+
+---
+
+### Programação Web II (PHP/MySQL)
+
+**Inclusões:**
+
+* Desenvolvimento de aplicação web com integração a modelos básicos de IA (ex: classificação simples)
+* Exportação de dados para treinar ou avaliar modelos
+
+---
+
+### Laboratório de Software
+
+**Reformulação:**
+
+> Execução de projetos de ciência de dados e IA em Python com uso de bibliotecas como pandas, numpy e scikit-learn. Treinamento de modelos básicos de classificação e regressão (ex: árvore de decisão, KNN). Uso de notebooks (Jupyter/Colab) para experimentação.
+
+---
+
+### Laboratório WEB
+
+**Nova abordagem:**
+
+> Desenvolvimento de projeto integrador utilizando ciência de dados e inteligência artificial. Exibição de dashboards e previsão de dados, criação de assistentes simples baseados em lógica condicional ou integração com APIs de IA.
