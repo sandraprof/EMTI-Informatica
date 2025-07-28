@@ -2,7 +2,7 @@
 
 ## 🧠 1º Ano – Fundamentos e Pensamento Computacional
 
-| Componente Curricular     | Tipo                      | Foco Principal                                             | Materiais a Desenvolver                        |
+| Componente Curricular     | Tipo                      | Foco Principal                                             | Materiais                                      |
 |---------------------------|---------------------------|------------------------------------------------------------|------------------------------------------------|
 | Informática Básica        | Técnica                   | Introdução a hardware, software, redes, virtualização      | Apostila + 12 planos de aula + exercícios      |
 | Lógica de Programação     | Técnica                   | Algoritmo, variáveis, estruturas de decisão e repetição     | Apostila + 16 planos de aula + exercícios      |
@@ -15,7 +15,7 @@
 
 ## 💻 2º Ano – Desenvolvimento, Infraestrutura e Empreendedorismo
 
-| Componente Curricular             | Tipo        | Foco Principal                                                              | Materiais a Desenvolver                         |
+| Componente Curricular             | Tipo        | Foco Principal                                                              | Materiais                                       |
 |----------------------------------|-------------|-----------------------------------------------------------------------------|-------------------------------------------------|
 | Arquitetura e Manutenção         | Técnica     | Hardware, eletrônica básica, montagem e manutenção                         | Apostila + 10 planos de aula + kits práticos    |
 | HTML/CSS                         | Técnica     | Desenvolvimento front-end com HTML5 e CSS3                                 | Apostila + 14 planos de aula + site modelo      |
@@ -30,7 +30,7 @@
 
 ## 🌐 3º Ano – Projetos, Integração de Sistemas e Mundo do Trabalho
 
-| Componente Curricular           | Tipo     | Foco Principal                                                            | Materiais a Desenvolver                          |
+| Componente Curricular           | Tipo     | Foco Principal                                                            | Materiais                                        |
 |---------------------------------|----------|---------------------------------------------------------------------------|--------------------------------------------------|
 | Redes de Computadores           | Técnica  | Topologias, cabeamento, protocolos TCP/IP, conectividade                  | Apostila + 12 planos de aula + simulações        |
 | Design (Web e UX/UI)            | Técnica  | Comunicação visual, prototipação, interfaces e layout responsivo          | Apostila + 10 planos + projeto gráfico           |
